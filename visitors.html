@@ -1,0 +1,157 @@
+
+
+
+<html>
+<head>
+<title>Ledgewood Court Apartment LLC.</title>
+<link rel="stylesheet" type="text/css" href="style_main.css">
+<style>
+p {
+    border:1px solid white;
+    margin:20px;
+}
+</style>
+</head>
+<script>
+function validateForm() {
+    var name = validate.V_Firstname.value;
+	var x=validate.V_phone.value;
+	if(isNaN(x)||x.indexOf("")!=-1){
+	alert("Phone number -Enter numeric value");
+	return false;
+	
+	}
+	if(x.length<10){
+	alert("Mobile number should have atleast 10 numbers");
+	return false;
+	}
+	
+	
+	var phone=validate.V_phone.value;
+	if (name.length==null){
+        alert("Name must be filled out");
+        return false;
+    }
+
+}
+
+</script>
+<body>
+<center>
+<table width="70%" border="1" bgcolor="white">
+<tr>
+<td>
+<center>
+<img src = "images/1234.jpg" alt = "[High Springs Orchard, LLC.]">
+</center>
+</td>
+</tr>
+<tr>
+<td>
+<center>
+<hr>
+<input type=button onClick="location.href='index.html'" value='Home' >
+&nbsp;|&nbsp;
+<input type=button onClick="location. href='About us.html'" value='About us'></a>
+&nbsp;|&nbsp;
+<input type=button onClick="location.href='Residents.html'" value='Residents'>
+&nbsp;|&nbsp;
+<input type=button onClick="location.href='Employee.html'" value='Employees'>
+&nbsp;|&nbsp;
+<input type=button onClick="location.href='visitors.html'" value='Visitors'>
+&nbsp;|&nbsp;
+<input type=button onClick="location.href='amenities.html'" value='Amenities'>
+&nbsp;|&nbsp;
+<input type=button onClick="location.href='contact us.html'" value='Contact us'>
+<hr>
+</center>
+</td>
+</tr>
+<tr>
+<td>
+<center>
+<h1>
+Visitors
+</h1>
+</center>
+<p align=justify>
+Rent Information
+<br>
+<table style="width:100%">
+  <tr>
+    <td>Apartment</td>
+    <td>1 bed</td> 
+    <td>1 bath</td>
+	<td>$895-915/month</td> 
+    <td> Approx. 625sqft  </td>
+	 <td> <a href="images/2beds.gif"    target="_blank">Floor Plan</a>
+  </tr>
+	  <tr>
+    <td>Apartment</td>
+    <td>2 bed</td> 
+    <td>1 bath</td>
+	<td>$1000-1020/month</td> 
+    <td> Approx. 785sqft  </td>
+	 <td> <a href="images/1bed.gif"   target="_blank">Floor Plan</a></td> 
+  </tr>
+  <tr>
+    <td>Apartment</td>
+    <td>studio</td> 
+    <td>1 bath</td>
+	<td>$700-800/month</td> 
+    <td> Approx. 500sqft  </td>
+	 <td> <a href="images/studio.jpg"   target="_blank">Floor Plan</a> </td> 
+  </tr>
+  </table>
+  </center><br>
+  Prices, specials, features and availability subject to change.<br>
+ <br>
+<b> Community Information :</b> 153 units<br><br>
+
+<b>Building Type: </b>Apartment <br><br>
+
+Thank you for your interest in Ledgewood Court Apartment. 
+
+Every day we strive to provide exceptional customer service and quality apartment homes; to achieve this goal we need and appreciate your feedback.
+Let us know your thoughts...
+and thank you for visiting us online.
+ For the fastest response, please select the apartment community of interest in the drop down menu below marked "send to". A representative from this location will be in touch with you as soon as possible!
+<br>
+<p> For Scheduling appointment, please feel the following Details <br>
+<b>
+Leasing Terms<br>
+</b>
+Lease Terms: 12 months. Security Deposit: Equal to one month's rent.
+</p>
+</p>
+
+<form name="myForm" method="post" >
+<p> <b>First Name</b> <input type="text" id="name" name="V_Firstname" required> <br>
+<p> <b>Last Name</b> <input type="text" id="name" name="V_lastname" required>  <br>
+<p> <b>Phone</b> <input type="Phnumber" id="name" name="V_phone" size=10 ><br>
+<p> <b>Email Id</b>  <input type="email" id="mail" name="V_email"  > <br> <br>
+<label for="meeting"> <b>Meeting Date :</b> </label><input id="meeting" type="date" value="2015-01-13" min="2015-3-18 max="2015-06-01"/><br><br>
+<b> Time:</b><select>
+  <option value="audi">10am-11am</option>
+  <option value="volvo">11am-12pm</option>
+  <option value="saab">12pm-1pm</option>
+  <option value="opel">1pm-2pm</option>
+</select><br>
+<br>
+<input type="submit" value="Submit" onclick="return validateForm();"/>
+
+</form>
+</td>
+</tr>
+<tr>
+<td>
+<center>
+<hr>
+(c) The policy of renting can be changed without any approval of the Residents and Visitors.
+</center>
+</td>
+</tr>
+</table>
+</center>
+</body>
+</html>
